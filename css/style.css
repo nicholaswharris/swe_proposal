@@ -1,5 +1,5 @@
 body {
-	background-color: rgb(0, 255, 0);
+	background-color: #AF8057;
 }
 
 main {
@@ -8,4 +8,12 @@ main {
 
 input {
 	size: 80;
+}
+
+li{
+	color: black;
+	
+}
+a{
+	color: blue;
 }
