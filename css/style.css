@@ -1,0 +1,25 @@
+body {
+	background-color: #1A2C42;
+}
+
+.center {
+  text-align:center;
+}
+
+input {
+	size: 80;
+}
+
+select, input, textarea {
+	background-color: #ff00ff;
+}
+
+h1 {
+	color: black;
+	text-align: left;
+}
+
+ul {
+	color: black;
+	text-align: left;
+}
