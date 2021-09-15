@@ -1,5 +1,5 @@
 body {
-	background-color: #1A2C42;
+	background-color: 0,0,150;
 }
 
 .center {
@@ -16,10 +16,10 @@ select, input, textarea {
 
 h1 {
 	color: black;
-	text-align: left;
+	text-align: center;
 }
 
 ul {
 	color: black;
-	text-align: left;
+	text-align: center;
 }
