@@ -54,7 +54,7 @@ body {
 	text-align: center;
 	color: rgba(255, 255, 255, 0.8);
 	font-size: 32px;
-	height: 50vh;
+	min-height: 50vh;
 	background: #072000;
 	border: 1px solid white;
 	border-radius: 5px;
