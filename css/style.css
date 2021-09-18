@@ -23,21 +23,39 @@ body {
 	font-size: 45px;
 }
 
+.card-stack {
+	display: flex;
+	max-width: 1200px;
+	margin: auto;
+	flex-direction: column;
+	padding: 40px;
+	align-items: center;
+}
+
 .card-container {
+	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 }
 
-.card {
-	text-align: center;
+.card-small {
 	flex-grow: 1;
+}
+
+.card-large {
+	flex-grow: 3;
+}
+
+.card {
+	margin: 20px;
+	text-align: center;
 	color: rgba(255,255,255,0.8);
 	font-size: 32px;
 	height: 50vh;
 	background: #072000;
 	border: 1px solid white;
 	border-radius: 5px;
-	margin: 20px;
+	padding: 24px;
 }
 
 input {
