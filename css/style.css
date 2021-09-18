@@ -1,69 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
 body {
-	margin: 0;
-  padding: 0;
-  height: 100vh;
-  width: 100vw;
 	font-family: 'Zilla Slab', serif;
 	background-color: #072000;
 }
 
 #particles-js{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
 	height: 100vh;
 	width: 100vw;
 	background: #072000;
 }
 
 #header{
-	position: fixed;
+	margin: 0 8vw;
+	padding-top: 4vh;
+	text-align: center;
 	color: white;
-	font-size:45px;
-	top: 5vh;
-	left: 50vw;
-	transform: translate(-11vw,0);
+	border-bottom: 1px solid white;
+	font-size: 45px;
 }
 
-#shape1{
+.card-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card {
 	text-align: center;
+	flex-grow: 1;
 	color: rgba(255,255,255,0.8);
 	font-size: 32px;
-	position: fixed;
-	top: 25vh;
-	width: 30vh;
 	height: 50vh;
-	z-index: 1000;
-	transform: skew(0.06deg, -18deg);
 	background: #072000;
-	border: 1px solid black;
+	border: 1px solid white;
 	border-radius: 5px;
-}
-
-#shape2{
-	text-align: center;
-	color: rgba(255,255,255,0.8);
-	font-size: 32px;
-	position: fixed;
-	top: 25vh;
-	width: 30vh;
-	height: 50vh;
-	z-index: 1000;
-	transform: skew(-0.06deg, 18deg);
-	background: #072000;
-	border: 1px solid black;
-	border-radius: 5px;
-}
-
-.div1{
-	left: 20vh;
-}
-.div2{
-	left: 55vh;
-}
-.div3{
-	left: 90vh;
-}
-.div4{
-	left: 125vh;
+	margin: 20px;
 }
 
 input {
