@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
 body {
+<<<<<<< HEAD
 	margin: 0;
   padding: 0;
   height: 100vh;
   width: 100vw;
 	font-family: 'Zilla Slab', serif;
+=======
+	background-color: #AF8057;
+>>>>>>> b7d684a268df92e3894a7d519210ed2a582b25dc
 }
 
 #particles-js{
@@ -67,4 +71,12 @@ body {
 
 input {
 	size: 80;
+}
+
+li{
+	color: black;
+	
+}
+a{
+	color: blue;
 }
