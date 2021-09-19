@@ -3,6 +3,7 @@
 	;
 
 body {
+	box-sizing: border-box;
 	font-family: 'Zilla Slab', serif;
 	background-color: #072000;
 }
@@ -42,11 +43,11 @@ body {
 }
 
 .card-small {
-	flex-grow: 1;
+	flex: 1 1 auto;
 }
 
 .card-large {
-	flex-grow: 3;
+	flex: 3 1 480px;
 }
 
 .card {
@@ -54,7 +55,6 @@ body {
 	text-align: center;
 	color: rgba(255, 255, 255, 0.8);
 	font-size: 32px;
-	min-height: 50vh;
 	background: #072000;
 	border: 1px solid white;
 	border-radius: 5px;
