@@ -61,6 +61,11 @@ body {
 	padding: 24px;
 }
 
+.big {
+	width: 100%;
+	height: 700px;
+}
+
 input {
 	size: 80;
 }
